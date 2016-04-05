@@ -1,0 +1,67 @@
+\documentclass[a4paper,titlepage]{article}
+\usepackage[margin=1in,centering]{geometry}
+\usepackage{fontspec}
+\usepackage{psvectorian}
+\usepackage{array}
+\usepackage{multicol}
+
+\usepackage{titlesec}
+\titleformat*{\section}{\LARGE}
+\titleformat*{\subsection}{\Large}
+\titleformat*{\subsubsection}{\large}
+
+\usepackage{polyglossia}
+\setmainlanguage{urdu}
+\setotherlanguage{hindi}
+\newfontfamily\urdufont[Script=Arabic, Language=Urdu]{Noto Nastaliq Urdu}
+\newfontfamily\hindifont[Script=Devanagari,Ligatures=TeX]{ITF Devanagari}
+
+\usepackage{setspace}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em plus .2em minus .1em}
+\setcounter{secnumdepth}{0}
+
+\newcommand{\deco}{\psvectorian[height=0.75cm]{71}}
+
+\begin{document}
+\begin{titlepage}
+\selectlanguage{hindi}
+\begin{center}
+\Huge \textbf{महात्मा गांधी अंतरराष्ट्रीय हिंदी विश्वविद्यालय, वर्धा}
+\vskip 20pt
+\huge भारतीय एवं विदेशी भाषा प्रगत अध्ययन केन्द्र
+\vskip 10pt
+भाषा विद्यापीठ
+\vskip 42pt
+\deco\deco\deco
+\vskip 42pt
+\huge \textbf{टर्म पेपर}
+\vskip 20pt
+\vskip 10pt
+अफ़सानवी और ग़ैर अफ़सानवी नस्र
+\vskip 10pt
+\vskip 42pt
+\deco\deco\deco
+\end{center}
+\vskip 42pt
+\setlength{\tabcolsep}{0pt}
+\noindent\begin{tabular}{>{\noindent\centering}p{225pt}>{\noindent\centering}p{225pt}}
+\huge \textbf{प्रस्तुतकर्ता}
+\vskip 10pt
+\LARGE दीपक जोईस\\
+उर्दू भाषा में एडवांस्ड डिप्लोमा\\
+द्वितीय छमाही\\
+2015-16
+&
+\huge \textbf{मार्गदर्शक}\\
+\vskip 10pt
+\LARGE हिमांशू शेखर\\
+सहायक प्रोफेसर\\
+\end{tabular}
+\end{titlepage}
+
+\selectlanguage{urdu}
+\setstretch{2.5}
+$body$
+\end{document}

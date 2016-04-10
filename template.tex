@@ -9,14 +9,15 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \usepackage{titlesec}
-\titleformat*{\section}{\LARGE}
-\titleformat*{\subsection}{\Large}
-\titleformat*{\subsubsection}{\large}
+\titleformat*{\section}{\LARGE\titlefont}
+\titleformat*{\subsection}{\Large\titlefont}
+\titleformat*{\subsubsection}{\large\titlefont}
 
 \usepackage{polyglossia}
 \setmainlanguage{urdu}
 \setotherlanguage{hindi}
 \newfontfamily\urdufont[Script=Arabic, Language=Urdu]{Noto Nastaliq Urdu}
+\newfontfamily\titlefont[Script=Arabic,Language=Urdu,FakeBold=1.8]{Noto Nastaliq Urdu}
 \newfontfamily\hindifont[Script=Devanagari,Ligatures=TeX]{ITF Devanagari}
 
 \usepackage{setspace}
